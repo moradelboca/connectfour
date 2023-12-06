@@ -4,7 +4,7 @@ package frc.utn;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        Game game = new Game(2, 10,10);
+        Game game = new Game(2, 7,7);
         game.start();
     }
 }

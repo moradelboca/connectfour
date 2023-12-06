@@ -18,9 +18,9 @@ public class Game {
 
     public void start(){
         // Create players.
-        players[0] = new HumanPlayer("Player1", 'b');
+        players[0] = new HumanPlayer("Player1", 'r');
         //players[1] = new Bot();
-        players[1] = new HumanPlayer("Player2", 'y');
+        players[1] = new HumanPlayer("Player2", 'b');
         System.out.println("Welcome to Connect Four!");
         System.out.println(this.board.toStringF());
         while(true){
